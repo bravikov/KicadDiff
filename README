@@ -1,0 +1,14 @@
+Статья с подробным описанием:
+
+http://we.easyelectronics.ru/bravikov/kontrol-versiy-kicad-proektov.html
+
+
+Содержимое .gitattributes:
+
+*.svg diff=kicad_diff
+
+Содержимое .git/config:
+
+[diff "kicad_diff"]
+	command = "bash kicad-diff.sh"
+
