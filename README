@@ -2,6 +2,7 @@
 
 http://we.easyelectronics.ru/bravikov/kontrol-versiy-kicad-proektov.html
 
+Работает только если изменяемые файлы находяться в корне проекта, но не во вложенных каталогах.
 
 Содержимое .gitattributes:
 
