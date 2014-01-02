@@ -28,7 +28,7 @@ NEW_FILE=$5
 
 OLD_PNG_FILE=/tmp/kicad-diff-old-file.png
 NEW_PNG_FILE=/tmp/kicad-diff-new-file.png
-RESULT_FILE=/tmp/kicad-diff.png
+RESULT_FILE="/tmp/kicad-diff-$1.png"
 
 # Проверка существования утилит imagemagiсk
 if [[ ! (-x `which convert`) || ! (-x `which composite`) ]];
